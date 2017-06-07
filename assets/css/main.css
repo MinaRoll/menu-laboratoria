@@ -1,4 +1,3 @@
-/*  font-family: 'Amatic SC', cursive; */
 *{
 	margin: 0;
 	padding: 0;
@@ -12,6 +11,7 @@ body{
 	display: flex;
 	justify-content: center;
 }
+
 .menu{
 	background-color: #E66C73;
 	width: 100%;
@@ -19,6 +19,7 @@ body{
 	text-align: center;
 
 }
+
 .menu a{
 	color: white;
 	text-decoration: none;
@@ -31,6 +32,7 @@ body{
 .ocultarMenu{
 	display: none;
 }
+
 .menu a:hover{
 	background-color: #c1474e;
 }
