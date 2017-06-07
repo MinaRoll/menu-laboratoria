@@ -6,3 +6,31 @@
 body{
 	font-family: 'Acme', sans-serif;
 }
+
+/**** NAV ****/
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
+.menu{
+	background-color: #E66C73;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-right: 1px solid gray;
+	cursor:crosshair;
+	flex-grow: 1;
+}
+
+.ocultarMenu{
+	display: none;
+}
+.menu a:hover{
+	background-color: #c1474e;
+}
